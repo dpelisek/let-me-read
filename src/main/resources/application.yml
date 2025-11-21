@@ -1,6 +1,14 @@
 spring.application.name: let-me-read
 
+# logging
 logging:
   level:
     root: INFO
     dp.let_me_read: DEBUG
+
+  # aws s3
+  aws:
+    region: eu-central-1
+    bucket-name: dpelisek-s3-bucket-1
+    access-key: YOUR_ACCESS_KEY
+    secret-key: YOUR_SECRET_KEY
